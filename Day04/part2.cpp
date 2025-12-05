@@ -3,7 +3,7 @@
 #include "common.h"
 
 int main() {
-  auto grid = load_grid("input.txt");
+  auto grid = load_grid("test.txt");
 
   int valid_rolls = 0;
   bool changed = true;

@@ -24,7 +24,7 @@ int main() {
   int dial_pos = START_POS;
   size_t password = 0;
 
-  std::fstream input_file("input.txt");
+  std::fstream input_file("test.txt");
   std::string line;
   while (std::getline(input_file, line)) {
     auto move = decode_move(line);
